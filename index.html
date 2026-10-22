@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DevOps Fundamentals Project</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f0f4f8; text-align:center; padding-top:60px; }
+    .card { background:white; display:inline-block; padding:40px 60px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15); }
+    h1 { color:#232f3e; }
+    .msg { color:#ff9900; font-weight:bold; font-size:20px; margin-top:20px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Cloud-Based Linux Server Deployment with GitHub Version Control and Automation</h1>
+    <p><b>Student Name:</b> Kunal Dait</p>
+    <p><b>Batch Code:</b> A530</p>
+    <p><b>Current Date:</b> <span id="date"></span></p>
+    <p class="msg">Hosted on AWS Ubuntu Server</p>
+  </div>
+  <script>
+    document.getElementById("date").innerText = new Date().toDateString();
+  </script>
+</body>
+</html>

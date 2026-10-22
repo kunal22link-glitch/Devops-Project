@@ -1,0 +1,41 @@
+========== LOG REPORT - Thu Oct 22 17:37:40 UTC 2026 ==========
+
+===== 1. FAILED LOGIN ATTEMPTS =====
+2026-10-22T17:37:40.995433+00:00 ip-10-0-1-53 sudo: ubuntu : TTY=/dev/pts/0 ; PWD=/home/ubuntu/Devops_project1 ; USER=root ; COMMAND=/usr/bin/grep -i invalid user /var/log/auth.log
+
+===== 2. SSH LOGIN ACTIVITY =====
+2026-10-22T15:33:52.238348+00:00 ip-10-0-1-53 sshd-session[1106]: Accepted publickey for ubuntu from 13.233.177.4 port 7398 ssh2: ED25519 SHA256:8dX+I6uUcH6STiGEBJloGpCeej41Q6vs4fch/YJl3Rc
+2026-10-22T15:59:22.833569+00:00 ip-10-0-1-53 sshd-session[8295]: Accepted publickey for ubuntu from 13.233.177.5 port 44716 ssh2: ED25519 SHA256:1j/BzHMSNV9+hIIyRZlFkZ2eYAgLbhpaMbPRHfy7Jpg
+2026-10-22T16:04:09.294560+00:00 ip-10-0-1-53 sshd-session[9869]: Accepted publickey for ubuntu from 202.168.147.230 port 56115 ssh2: RSA SHA256:TgwZXlLrzvPE/ulSgeW/vZW+Txy5AUeq3KM+pjwPCyE
+
+===== 3. SYSTEM ERRORS =====
+Oct 22 15:32:55 ubuntu kernel: piix4_smbus 0000:00:01.3: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+Oct 22 15:59:42 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Oct 22 16:01:13 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Oct 22 16:02:02 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Oct 22 16:04:45 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Oct 22 16:06:05 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Oct 22 16:12:53 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Oct 22 17:09:13 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+
+===== 4. WARNING MESSAGES =====
+Oct 22 15:34:33 ip-10-0-1-53 irqbalance[658]: Cannot change IRQ 25 affinity: Permission denied
+Oct 22 15:34:33 ip-10-0-1-53 irqbalance[658]: IRQ 25 affinity is now unmanaged
+Oct 22 15:36:24 ip-10-0-1-53 kernel: kauditd_printk_skb: 1 callbacks suppressed
+Oct 22 15:40:13 ip-10-0-1-53 irqbalance[658]: Cannot change IRQ 26 affinity: Permission denied
+Oct 22 15:40:13 ip-10-0-1-53 irqbalance[658]: IRQ 26 affinity is now unmanaged
+Oct 22 15:59:42 ip-10-0-1-53 systemd[1]: apache2.service: Failed with result 'exit-code'.
+Oct 22 15:59:42 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Oct 22 16:01:13 ip-10-0-1-53 systemd[1]: apache2.service: Failed with result 'exit-code'.
+Oct 22 16:01:13 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Oct 22 16:02:02 ip-10-0-1-53 systemd[1]: apache2.service: Failed with result 'exit-code'.
+Oct 22 16:02:02 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Oct 22 16:04:45 ip-10-0-1-53 systemd[1]: apache2.service: Failed with result 'exit-code'.
+Oct 22 16:04:45 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Oct 22 16:06:05 ip-10-0-1-53 systemd[1]: apache2.service: Failed with result 'exit-code'.
+Oct 22 16:06:05 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Oct 22 16:12:53 ip-10-0-1-53 systemd[1]: apache2.service: Failed with result 'exit-code'.
+Oct 22 16:12:53 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+Oct 22 16:34:41 ip-10-0-1-53 kernel: ena 0000:00:05.0: Type was not set for devlink port.
+Oct 22 17:09:13 ip-10-0-1-53 systemd[1]: apache2.service: Failed with result 'exit-code'.
+Oct 22 17:09:13 ip-10-0-1-53 systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
